@@ -43,7 +43,7 @@ function iLoveTheBeatles(){
   
    do{ 
     if (i === 17){
-    array.push('I love the Beatles!');
+    array = ['I love the Beatles!'];
     } else {
     array.push('I love the Beatles!');
     incrementVariable();}
