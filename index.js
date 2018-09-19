@@ -33,10 +33,10 @@ function johnLennonFacts(facts){
 
 
 
-
-function iLoveTheBeatles(){
+ var i = 0;
+function iLoveTheBeatles(i){
   var array = [];
-  var i = 0;
+ 
   
    do{ 
     if (i === 17){
