@@ -36,16 +36,20 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(){
   var array = [];
-  var n = 0;
-
+  var i = 0;
+  function incrementVariable() {
+  i = i + 1;
+}
+  
    do{ 
-    if (n === 17){
+    if (i === 17){
     array.push('I love the Beatles!');
     } else {
     array.push('I love the Beatles!');
-    (++n);}
+    incrementVariable();}
    }
-  while (n < 16);
+   
+   while (i < 16);
   
   return array;
 }
